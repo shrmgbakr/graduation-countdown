@@ -25,7 +25,7 @@
          //CELEBRATE
          if (distance < 0) {
             document.getElementById("headline").innerText = "I graduated!";
-            document.getElementById("image").src="../Assets/gradDone.jpg";
+            document.getElementById("image").src="./Assets/gradDone.jpg";
             document.getElementById("countdown").style.display = "none";
             document.getElementById("content").style.display = "block";
             document.getElementById("balloons-div").style.display = "block";
