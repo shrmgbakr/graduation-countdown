@@ -60,7 +60,7 @@ li span {
    --smaller: .75;
 }
 
-.balloons-div {
+#balloons-div {
    display: none;
 }
 
