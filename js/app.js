@@ -4,7 +4,7 @@
       hour = minute * 60,
       day = hour * 24;
 
-   let gradDate = "03/02/2023";
+   let gradDate = "02/28/2023";
 
    const countDown = new Date(gradDate).getTime(),
       x = setInterval(function () {
@@ -25,6 +25,7 @@
          //CELEBRATE
          if (distance < 0) {
             document.getElementById("headline").innerText = "I graduated!";
+            document.getElementById("image").src="../Assets/gradDone.jpg";
             document.getElementById("countdown").style.display = "none";
             document.getElementById("content").style.display = "block";
             clearInterval(x);
