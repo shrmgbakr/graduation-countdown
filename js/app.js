@@ -4,7 +4,7 @@
       hour = minute * 60,
       day = hour * 24;
 
-   let gradDate = "02/2/2023";
+   let gradDate = "02/28/2023";
 
    const countDown = new Date(gradDate).getTime(),
       x = setInterval(function () {
